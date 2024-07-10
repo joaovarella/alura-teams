@@ -1,0 +1,30 @@
+.rodape {
+    background: #6278F7;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista__links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.lista__links li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.div__empresa p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
